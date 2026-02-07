@@ -1,21 +1,36 @@
 DONE
 
-- None
+## Backend Setup
+- Set up Spring Boot project structure (initial commit)
+- Add Spring Security, JWT, and validation dependencies - `adc4c45`
+- Configure database (MySQL) and JWT settings - `f9b9594`
+- Create User entity with email, password, and name fields - `9e47d31`
+- Create UserRepository with email lookup methods - `2b7a67e`
+- Implement JWT TokenProvider for token generation/validation - `a3a85e6`
+- Configure Spring Security with BCrypt password encoder and CORS - `17079f3`
+- Create authentication DTOs (RegisterRequest, LoginRequest, AuthResponse, MessageResponse) - `e5723ed`
+- Implement AuthService with register and login logic - `702e50c`
+- Create AuthController with register/login/logout endpoints - `a1e6434`
 
 IN-PROGRESS
 
-- None
+- Testing backend API endpoints
 
 TODO
 
-- Define project goals and scope
-- Set up backend configuration (Spring Boot profiles, env, logging)
-- Define API contracts (endpoints, DTOs, validation)
-- Implement core backend modules (auth, data, services)
-- Set up database integration and migrations
+## Backend
 - Add backend tests (unit/integration)
+- Add exception handling and error responses
+- Implement JWT authentication filter for protected routes
+
+## Frontend
+- Set up frontend project (React/Vite)
 - Set up frontend routing and page structure
 - Implement frontend auth flow and API client
-- Build core UI components and screens
+- Build core UI components and screens (Login, Register, Dashboard)
 - Add frontend tests (unit/e2e)
+
+## DevOps
 - Add CI/CD pipeline and lint/test scripts
+- Set up environment variables management
+- Add API documentation (Swagger/OpenAPI)
