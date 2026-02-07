@@ -14,23 +14,18 @@ DONE
 
 IN-PROGRESS
 
-- Testing backend API endpoints
+- None
 
 TODO
 
-## Backend
-- Add backend tests (unit/integration)
-- Add exception handling and error responses
-- Implement JWT authentication filter for protected routes
+## Backend Testing (Manual via Postman)
+- Test user registration endpoint
+- Test user login endpoint
+- Verify JWT token generation
+- Test duplicate email validation
 
 ## Frontend
 - Set up frontend project (React/Vite)
 - Set up frontend routing and page structure
 - Implement frontend auth flow and API client
 - Build core UI components and screens (Login, Register, Dashboard)
-- Add frontend tests (unit/e2e)
-
-## DevOps
-- Add CI/CD pipeline and lint/test scripts
-- Set up environment variables management
-- Add API documentation (Swagger/OpenAPI)
