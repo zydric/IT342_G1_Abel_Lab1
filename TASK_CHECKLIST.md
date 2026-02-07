@@ -12,20 +12,21 @@ DONE
 - Implement AuthService with register and login logic - `702e50c`
 - Create AuthController with register/login/logout endpoints - `a1e6434`
 
-IN-PROGRESS
-
-- None
-
-TODO
-
 ## Backend Testing (Manual via Postman)
-- Test user registration endpoint
-- Test user login endpoint
-- Verify JWT token generation
-- Test duplicate email validation
+- Test user registration endpoint - ✓
+- Test user login endpoint - ✓
+- Verify JWT token generation - ✓
+- Test duplicate email validation - ✓
 
-## Frontend
-- Set up frontend project (React/Vite)
-- Set up frontend routing and page structure
-- Implement frontend auth flow and API client
-- Build core UI components and screens (Login, Register, Dashboard)
+## Frontend Setup
+- Set up frontend project (React/Vite) - ✓
+- Add React Router DOM dependency - `ed8d4cc`
+- Add storage utility for auth token persistence - `7445d6f`
+- Add auth service for API communication - `c418b82`
+- Add auth context for global state management - `91f9635`
+- Add protected route component - `2e24a17`
+- Add login page with form validation - `0f42b71`
+- Add register page with form validation - `7df73bd`
+- Add dashboard page with user profile - `32e99a5`
+- Setup routing configuration with protected routes - `dfcd75a`
+- Add clean design with orange accent - `d1ac3a8`
