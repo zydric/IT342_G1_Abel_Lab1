@@ -30,7 +30,8 @@ const Register = () => {
 
     try {
       await register(formData);
-      navigate('/dashboard');
+      // Redirect to login page after successful registration
+      navigate('/login', { state: { message: 'Registration successful! Please login.' } });
     } catch (err) {
       setError(err.message || 'Registration failed. Please try again.');
     } finally {

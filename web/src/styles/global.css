@@ -125,6 +125,16 @@ body {
   font-size: 14px;
 }
 
+.success-message {
+  background: #f0fdf4;
+  border: 1px solid #86efac;
+  color: #15803d;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
 .auth-switch {
   text-align: center;
   margin-top: 25px;
