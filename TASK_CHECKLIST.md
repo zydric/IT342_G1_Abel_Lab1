@@ -30,9 +30,23 @@
 - Add dashboard page with user profile - `32e99a5`
 - Setup routing configuration with protected routes - `dfcd75a`
 - Add clean design with orange accent - `d1ac3a8`
+- Fix registration flow to redirect to login page - `6e47970`
 
 # IN-PROGRESS
- - None
+- None
 
 # TODO
-- None
+## Security Enhancements
+- Implement proper protected routes verification
+- Add JWT token expiration handling
+- Implement automatic logout on token expiration
+- Add input sanitization and validation on frontend
+- Implement rate limiting for API endpoints (backend)
+- Add HTTPS configuration for production
+- Implement password strength requirements
+- Add remember me functionality
+
+## Testing & Documentation
+- Manual testing of complete auth flow
+- Document API endpoints
+- Create deployment guide
