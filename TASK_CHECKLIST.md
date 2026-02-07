@@ -1,4 +1,4 @@
-DONE
+# DONE
 
 ## Backend Setup
 - Set up Spring Boot project structure (initial commit)
@@ -30,3 +30,9 @@ DONE
 - Add dashboard page with user profile - `32e99a5`
 - Setup routing configuration with protected routes - `dfcd75a`
 - Add clean design with orange accent - `d1ac3a8`
+
+# IN-PROGRESS
+ - None
+
+# TODO
+- None
