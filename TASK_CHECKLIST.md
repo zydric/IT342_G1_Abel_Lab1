@@ -11,6 +11,8 @@
 - Create authentication DTOs (RegisterRequest, LoginRequest, AuthResponse, MessageResponse) - `e5723ed`
 - Implement AuthService with register and login logic - `702e50c`
 - Create AuthController with register/login/logout endpoints - `a1e6434`
+- Set up Docker Compose configuration with MySQL container - `87650ff`
+- Configure application.properties for MySQL database connection - `ecc6df0`
 
 ## Backend Testing (Manual via Postman)
 - Test user registration endpoint - ✓
@@ -44,9 +46,12 @@
 - Implement rate limiting for API endpoints (backend)
 - Add HTTPS configuration for production
 - Implement password strength requirements
-- Add remember me functionality
 
-## Testing & Documentation
-- Manual testing of complete auth flow
-- Document API endpoints
-- Create deployment guide
+## Documentation
+- Create comprehensive README.md documentation
+  - Project description
+  - Technologies used
+  - Backend setup and run instructions
+  - Web app setup and run instructions
+  - Mobile app setup and run instructions
+  - Complete list of API endpoints
