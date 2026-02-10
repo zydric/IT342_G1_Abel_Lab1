@@ -11,5 +11,14 @@ services:
     volumes:
       - db_data:/var/lib/mysql
 
+  phpmyadmin:
+    image: phpmyadmin
+    container_name: zdrco-pma
+    restart: always
+    ports:
+      - "8081:80"
+    environment:
+      - PMA_HOST=mysqldb
+
 volumes:
   db_data:
