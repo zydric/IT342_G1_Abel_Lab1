@@ -47,6 +47,25 @@ yarn-error.log*
 .eslintcache
 .stylelintcache
 
+# --- Android & Mobile Specifics ---
+# Local configuration (SDK paths, etc.)
+local.properties
+
+# Build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Android Studio internal files
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# NDK linking
+obj/
+
 # --- Miscellaneous ---
 temp/
 bin/
