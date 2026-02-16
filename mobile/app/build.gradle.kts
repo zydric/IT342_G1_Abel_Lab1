@@ -52,4 +52,6 @@ dependencies {
     // Lifecycle components (ViewModel & LiveData)
     implementation(libs.lifecycle.viewmodel)
     implementation(libs.lifecycle.livedata)
+
+    implementation(libs.androidx.activity.ktx)
 }
