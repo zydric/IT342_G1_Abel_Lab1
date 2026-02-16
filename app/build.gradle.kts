@@ -30,6 +30,9 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -42,4 +45,11 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    // Retrofit for API calls to Spring Boot backend
+    implementation(libs.retrofit.core)
+    implementation(libs.retrofit.gson)
+
+    // Lifecycle components (ViewModel & LiveData)
+    implementation(libs.lifecycle.viewmodel)
+    implementation(libs.lifecycle.livedata)
 }
